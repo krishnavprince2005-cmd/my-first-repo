@@ -1,52 +1,36 @@
 # Personal Finance Tracker
 
-A Personal Finance Tracker built using Python, SQLite, and Matplotlib to help users manage income, expenses, and visualize financial data easily.
+A desktop-based Personal Finance Tracker built using Python, SQLite, and Matplotlib to help users manage income, expenses, budgets, and visualize financial data effectively.
 
 ## Features
 
-- Add income records
-- Add expense records
+- Add income and expense records
+- Edit and delete transactions
 - Store financial data using SQLite database
-- View financial summaries
-- Visualize spending patterns using charts (Matplotlib)
-- Set monthly category budgets
-- Budget exceeded warning alerts
-- Export financial data to Excel
-- Monthly summary report
-- Yearly summary report
-- Manage expense categories
+- View monthly financial summary
+- View yearly financial summary
+- Visualize expenses using pie chart
+- Visualize income vs expense trend chart
+- Budget limit warning notification system
+- Export data to Excel
+
 ## Technologies Used
 
 - Python
 - SQLite
 - Matplotlib
+- Tkinter (GUI)
+- Pandas (for Excel export)
 
 ## Project Structure
 
-main.py – Main program file  
-finance_db.py – Database handling logic  
-finance.db – SQLite database  
+main.py → Main application file
+finance_db.py → Database operations
+finance.db → SQLite database file
+dashboard.png → Dashboard preview
+expense_chart.png → Expense pie chart
+trend_chart.png → Income vs Expense trend chart
 
-## How to Run the Project
-
-1. Install Python
-2. Install required library:
-
-pip install matplotlib
-
-3. Run the program:
-
-python main.py
-
-## Purpose of the Project
-
-This project was created to improve my skills in:
-
-- Python programming
-- Database management using SQLite
-- Data visualization using Matplotlib
-- Git and GitHub version control
-  
 ## Application Dashboard
 
 ![Dashboard](dashboard.png)
@@ -58,6 +42,27 @@ This project was created to improve my skills in:
 ## Monthly Income vs Expense Trend
 
 ![Trend Chart](trend_chart.png)
+
+## How to Run the Project
+
+1. Clone this repository
+https://github.com/krishnavprince2005-cmd/my-first-repo
+
+2. Open project folder
+
+3. Run the program
+
+python main.py
+
+## Purpose of the Project
+
+This project was created to improve my skills in:
+
+- Python programming
+- Database management using SQLite
+- Data visualization using Matplotlib
+- GUI development using Tkinter
+- Git and GitHub version control
 
 ## Author
 
